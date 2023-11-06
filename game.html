@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body style="background-color:yellow;">
+    
+
+   <div class="headinng">
+      <div class="playerOne">
+         <h1>playerOne</h1>
+         <div class="item" style="font-size: 30px; margin-top: 20px; font-weight: 600;color:black;"></div>
+         <button id="setNumber">set A Number</button>
+         <div class="button" style="display: flex; justify-content: center; align-items: center;">
+          <button id="gessNumber">buttonClick</button>
+         </div>
+      </div>
+ 
+       <div class="playerTwo">
+           <h1>playerTwo</h1>
+          <input id="input" type="text" placeholder=" enter your  number">
+          <h4 id="win" style="font-size: 30px; color: blue; font-weight: 700;"></h4>
+          <h3 id="lost" style="font-size: 30px; font-weight: 800; color: red;"></h3>
+          <div class="round">
+          <span class="try"></span>
+          <span class="try"></span>
+          <span class="try"></span>
+          
+          </div>
+          <h2>
+            <span>left to tray</span>
+            <span id="span"></span>
+          </h2>
+          <button id="click">click</button>
+        </div>
+   </div>
+
+
+
+
+
+    <script src="./js/game.js"></script>
+</body>
+</html>
